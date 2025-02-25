@@ -1,11 +1,11 @@
 import {Text, View} from 'react-native';
 
-const Profile = () => {
+const Single = () => {
   return (
     <View>
-      <Text>Profile screen</Text>
+      <Text>Single screen</Text>
     </View>
   );
 };
 
-export default Profile;
+export default Single;
