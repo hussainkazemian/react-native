@@ -29,6 +29,8 @@ const UserProvider = ({children}: {children: React.ReactNode}) => {
 
     } catch (e) {
       console.log((e as Error).message);
+      Alert.alert('Login failed', (e as Error).message);
+
     }
   };
 
